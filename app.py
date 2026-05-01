@@ -20,7 +20,8 @@ st.set_page_config(page_title="ペットSNS - 完全版", layout="wide")
 credentials = {
     "usernames": {
         "taki": {"name": "Taki User", "password": "123"},
-        "guest": {"name": "Guest User", "password": "456"}
+        "guest": {"name": "Guest User", "password": "456"},
+        "fukui": {"name": "Fukui User", "password": "69"}
     }
 }
 authenticator = stauth.Authenticate(credentials, "pet_app_cookie", "auth_key")
